@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Noumena'
 theme = "PaperMod"
 # theme = "cactus"
-pagination = 5
+pagination = 15
 enableRobotsTXT = true
 # [params]
 #   colortheme = "white"
@@ -26,10 +26,10 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = false
 disableSpecial1stPost = true
-disableScrollToTop = false
+disableScrollToTop = true
 comments = false
 hidemeta = false
-hideSummary = false
+hideSummary = true
 showtoc = false
 tocopen = false
 
@@ -100,8 +100,8 @@ tocopen = false
  url = "/tags/"
  weight = 20
 
- [[menu.main]]
- identifier = "noumena"
- name = "noumena.xyz"
- url = "https://noumena.xyz"
- weight = 30
+ # [[menu.main]]
+ # identifier = "noumena"
+ # name = "noumena.xyz"
+ # url = "https://noumena.xyz"
+ # weight = 30
