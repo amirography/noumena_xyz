@@ -1,0 +1,21 @@
+:root {
+    --primary:#3c3836;
+    --secondary:#504945;
+    --tertiary:#665c54;
+    --content:#3c3836;
+    --hljs-bg:#98971a;
+    --gap:1em;
+    --main-width:*;
+}
+.first-entry {
+    min-height:0px;
+}
+.main {
+    margin:1em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.post-title{
+    font-family: 'Poiret One', cursive;
+
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="300mm"
+   height="300mm"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="209.57213"
+       y="194.77033"
+       width="782.66405"
+       height="801.96201"
+       id="rect11591" />
+    <rect
+       x="209.57213"
+       y="194.77032"
+       width="782.66406"
+       height="801.96204"
+       id="rect11591-1" />
+  </defs>
+  <g
+     id="layer1"
+     style="display:none">
+    <rect
+       style="display:inline;fill:none;stroke-width:0.365001;stroke-dasharray:1.46, 0.730001"
+       id="rect848"
+       width="300"
+       height="300"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     id="layer2"
+     style="display:inline">
+    <ellipse
+       style="display:inline;fill:#8ec07c;stroke-width:0.247425;stroke-dasharray:0.989696, 0.49485"
+       id="path15685"
+       transform="matrix(0.95432642,-0.29876593,0.16814799,0.98576176,0,0)"
+       ry="66.303078"
+       rx="79.401527"
+       cy="189.67561"
+       cx="123.75896" />
+    <text
+       xml:space="preserve"
+       transform="matrix(10.431089,0,0,10.668005,-2133.6052,-2176.9152)"
+       id="text11589"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Indie Flower';-inkscape-font-specification:'Indie Flower, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;shape-inside:url(#rect11591);display:inline;fill:#282828;fill-opacity:1;stroke:none"><tspan
+         x="209.57227"
+         y="226.38265"
+         id="tspan4320">o</tspan></text>
+  </g>
+  <g
+     id="layer3"
+     style="display:none">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:39.4078px;line-height:1.25;font-family:'Indie Flower';-inkscape-font-specification:'Indie Flower, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#282828;fill-opacity:1;stroke:none;stroke-width:0.985196"
+       x="76.000473"
+       y="267.97733"
+       id="text22013"><tspan
+         id="tspan23417"
+         x="76.000473"
+         y="267.97733">NOUMENA</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:247.962px;line-height:1.25;font-family:'Indie Flower';-inkscape-font-specification:'Indie Flower, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;display:inline;fill:#282828;fill-opacity:1;stroke:none;stroke-width:6.93982"
+       x="-90.017082"
+       y="224.22287"
+       id="text971"><tspan
+         id="tspan969"
+         x="-90.017082"
+         y="224.22287"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:247.962px;font-family:'Indie Flower';-inkscape-font-specification:'Indie Flower, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:6.93982">N  UMENA</tspan></text>
+  </g>
+</svg>

@@ -1,5 +1,5 @@
 #+hugo_base_dir: ../
-#+hugo_section: ./
+#+hugo_section: ./posts/
 
 #+hugo_weight: auto
 #+hugo_auto_set_lastmod: t
@@ -8,7 +8,7 @@
 
 * Emacs                                                              :@emacs:
 All posts in here will have the category set to /emacs/.
-** TODO Writing Hugo blog in Org                                   :hugo:org:
+** DONE Writing Hugo blog in Org :hugo:org:
 :PROPERTIES:
 :EXPORT_FILE_NAME: writing-hugo-blog-in-org-subtree-export
 :EXPORT_DATE: 2017-09-10
