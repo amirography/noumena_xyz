@@ -1,3 +1,101 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://noumena.xyz'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Noumena'
+theme = "PaperMod"
+pagination = 5
+enableRobotsTXT = true
+
+[minify]
+minifyOutput = true
+[params]
+env = "production"
+title = "Noumena"
+description = "Fetishizing Limitations"
+keywords = [ "Philosophy", "Critical Thinking", "Rationality" ]
+author = "Amir Alesh"
+images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+disableSpecial1stPost = true
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+
+
+  [params.profileMode]
+  enabled = false
+  title = "Noumena"
+  subtitle = "Fetishizing Limitations"
+  imageUrl = "<img location>"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Posts and Essays:"
+  Content = "Some rants on what we can learn from the limitations of our knowledge."
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/amirography"
+
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/amirography"
+
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = "https://github.com/amirography/noumena_xyz/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "noumena"
+name = "noumena.xyz"
+url = "https://noumena.xyz"
+weight = 30
