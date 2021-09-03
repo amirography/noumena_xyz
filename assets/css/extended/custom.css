@@ -13,9 +13,11 @@
 .main {
     margin:1em;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-.post-title{
-    font-family: 'Poiret One', cursive;
-
+@import url('https://fonts.googleapis.com/css2?family=Mali:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500;900&display=swap');
+.post-title,
+h1,
+.entry-header{
+    font-family: 'Grandstander', cursive;
+    font-weight:500;
 }
