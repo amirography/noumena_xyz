@@ -37,11 +37,11 @@ tocopen = false
   [params.label]
   text = "Noumena + XYZ"
   icon = "/drawing-plain.svg"
-  iconHeight = "55"
+  iconHeight = "50"
   [params.profileMode]
   enabled = false
   title = "Noumena"
-  subtitle = "Fetishizing Limitations"
+  subtitle = "on Limitations"
   imageUrl = "<img location>"
   imageWidth = 120
   imageHeight = 120
@@ -56,8 +56,8 @@ tocopen = false
     url = "tags"
 
   [params.homeInfoParams]
-  Title = "Posts and Essays:"
-  Content = "Some rants on what we can learn from the limitations of our knowledge."
+  Title = "Posts:"
+  Content = "Some words about what we can learn from the limitations of our knowledge."
 
   [[params.socialIcons]]
   name = "twitter"
