@@ -2,9 +2,9 @@
 title = "a test post"
 author = ["Amir Alesh"]
 date = 2021-09-05T12:49:00+04:30
-lastmod = 2021-09-05T12:58:25+04:30
+lastmod = 2021-09-05T13:07:56+04:30
 categories = ["speculations"]
-draft = true
+draft = false
 weight = 2001
 +++
 
