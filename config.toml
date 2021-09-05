@@ -12,11 +12,11 @@ enableRobotsTXT = true
 minifyOutput = true
 [params]
 env = "production"
-title = "Noumena"
-description = "Fetishizing Limitations"
+title = "Noumena + XYZ"
+description = "On Limitations"
 keywords = [ "Philosophy", "Critical Thinking", "Rationality" ]
 author = "Amir Alesh"
-images = [ "<link or path of image for opengraph, twitter-cards>" ]
+images = [ "/drawing-plain.svg" ]
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
 disableThemeToggle = false
@@ -35,9 +35,9 @@ tocopen = false
 
 
   [params.label]
-  text = "Noumena"
+  text = "Noumena + XYZ"
   icon = "/drawing-plain.svg"
-  iconHeight = "65"
+  iconHeight = "55"
   [params.profileMode]
   enabled = false
   title = "Noumena"
