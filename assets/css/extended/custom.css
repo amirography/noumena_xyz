@@ -27,6 +27,6 @@ font-weight: 400;
 }
 .nav {
     max-width:45em;
-    margin-inline-start: *;
-    margin-inline-end: *;
+    margin-inline-start: unset;
+    margin-inline-end: unset;
 }
