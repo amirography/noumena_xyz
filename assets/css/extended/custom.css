@@ -13,6 +13,7 @@
 }
 .main {
     margin:1em;
+    max-width: 45em;
 }
 .post-title,
 h1,
@@ -25,5 +26,7 @@ font-family: 'JetBrains Mono', monospace;
 font-weight: 400;
 }
 .nav {
-    max-width:10000px;
+    max-width:45em;
+    margin-inline-start: *;
+    margin-inline-end: *;
 }
