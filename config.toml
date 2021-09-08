@@ -10,6 +10,8 @@ enableRobotsTXT = true
 #   description = "Hugo is a general-purpose website framework. Technically speaking, Hugo is a static site generator. Unlike systems that dynamically build a page with each visitor request, Hugo builds pages when you create or update your content. Since websites are viewed far more often than they are edited, Hugo is designed to provide an optimal viewing experience for your website’s end users and an ideal writing experience for website authors."
 [minify]
 minifyOutput = true
+[markup.goldmark.renderer]
+  unsafe = true
 [params]
 env = "production"
 title = "Noumena + XYZ"
@@ -100,8 +102,16 @@ tocopen = false
  url = "/tags/"
  weight = 20
 
+ [[menu.main]]
+ identifier = "search"
+ name = "search"
+ url = "/search/"
+ weight = 30
+
  # [[menu.main]]
  # identifier = "noumena"
  # name = "noumena.xyz"
  # url = "https://noumena.xyz"
  # weight = 30
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
