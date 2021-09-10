@@ -2,10 +2,10 @@
 title = "On Noumena.XYZ"
 author = ["Amir Alesh"]
 date = 2021-09-05T19:46:00+04:30
-lastmod = 2021-09-10T23:35:24+04:30
+lastmod = 2021-09-11T00:00:16+04:30
 tags = ["meta", "on"]
 categories = ["speculations"]
-draft = true
+draft = false
 weight = 2001
 +++
 
