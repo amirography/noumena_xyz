@@ -77,7 +77,6 @@ font-display:swap;
 font-display:swap;
 }
 :root {
-
     --primary:#3c3836;
     --secondary:#504945;
     --tertiary:#a89984;
@@ -85,6 +84,53 @@ font-display:swap;
     --hljs-bg:#98971a;
     --gap:1em;
     --main-width:*;
+    --theme:#f9f5d7;
+    --entry:#f9f5d7;
+    --code-bg: #8ec07c;
+    --headings:#504945;
+    --content-gap:0.8em;
+    --main-background:#ebdbb2;
+}
+.dark {
+  --theme: #282828;
+  --entry: #282828;
+  --primary: #ebdbb2;
+  /* --primary: #8ec07c; */
+  --secondary: #d5c4a1;
+  --tertiary: #fbf1c7;
+  /* --code-bg: #8ec07c; */
+  --code-bg: #427b58;
+  --heading:#8ec07c;
+  --main-background:#3c3836;
+}
+.post-content code {
+    margin: auto 4px;
+    padding: 4px 6px;
+    font-size: .78em;
+    line-height: 1.5;
+    background: unset;
+    border-radius: 6px;
+    border-color: var(--code-bg);
+    border-style: dashed;
+}
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4,
+.post-content h5,
+.post-content h6
+{
+  color: var(--heading);
+  margin-top: 2em;
+}
+
+h1.post-title{
+  background-color:var(--code-bg);
+  display:inline-block;
+  padding:0.2em;
+  border-radius:0.2em;
+  border-style:dashed;
+  /* margin-top:0.4em; */
 }
 .first-entry {
     min-height:0px;
@@ -105,6 +151,61 @@ font-family: 'raleway','JetBrains Mono', monospace;
 }
 .nav {
     max-width:45em;
-    margin-inline-start: unset;
+    margin-inline-start: var(--content-gap) ;
+
     margin-inline-end: unset;
+}
+.post-content p {
+  line-height:2.0em;
+}
+.post-tags a, .share-buttons, .paginav{
+
+  background: {}
+}
+.post-tags a, .share-buttons, .paginav {
+  background-color:unset;
+  border: 0.2em dashed var(--secondary)
+}
+.post-tags a:hover, .paginav a:hover{
+  background:var(--code-bg)
+}
+.dark.list,.list{
+  background:var(--main-background);
+}
+.post-tags a:hover, .paginav a:hover{
+  
+  background:var(--code-bg);
+}
+.list:not(.dark)::-webkit-scrollbar-thumb{
+  /* background:var(--main-background); */
+  border: 0.0em solid var(--main-backround)
+}
+.list:not(.dark)::-webkit-scrollbar-track{
+  background:var(--main-background);
+}
+
+
+
+.post-content a:hover{
+
+  decorations:none!important;
+}
+
+/* Underline styles - details of technique here: https://nickymeuleman.netlify.app/blog/css-animated-wrapping-underline */
+.post-content a {
+  background:
+    linear-gradient(to right, var(--primary), var(--primary)),
+    linear-gradient(to right, var(--code-bg), var(--code-bg));
+  background-size: 100% 0.1em, 0 0.1em;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+
+.post-content a:hover,
+.post-content a:focus {
+  background-size: 0 0.1em, 100% 0.1em;
+}
+.post-content a, .toc a:hover{
+  box-shadow: unset;
 }
